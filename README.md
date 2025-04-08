@@ -41,3 +41,39 @@ It contains tables that represent various aspects of the business :
 - **Region** : Defines geographical sales regions.
 - **Territories** : Specifies sales territories within those regions.
 - **EmployeeTerritories** : Links employees to the territories they manage.
+
+## Identifying Key Questions for Database Analysis
+
+After understanding the dataset and how the tables are connected, the next step was to think about what topics could be analyzed. For each topic, simple questions were listed and planned out like below :
+
+1. **Revenue and Profitability Analysis:**
+    * Calculate total revenue over specified periods (monthly, yearly).
+    * Compare revenue across different regions.
+    * Rank products by total sales, revenue, and quantity sold; identify best-selling categories.
+    * Analyze seasonal trends in product sales.
+    * Evaluate the impact of discounts on sales and profit margins.
+
+2. **Customer Insights:**
+    * Rank customers by total spending and classify them by country and role.
+    * Identify the most purchased products by country.
+    * Analyze order quantity by customer country.
+    * Calculate average order spending and quantity.
+
+3. **Employee Performance:**
+    * Identify top-performing sales representatives by individual and region.
+    * Compare employee sales performance.
+    * Analyze employee efficiency per employee.
+    * Evaluate the impact of employee region on sales state (profit/loss).
+
+4. **Shipping and Logistics Efficiency:**
+    * Identify the most frequently used shipping/supplier companies.
+    * Evaluate delivery times and shipping costs across different carriers.
+    * Identify fulfillment delays that impact sales.
+
+## Query Data Using SQL
+Open and connect to my local database on my computer using Microsoft SQL Server Management Studio, then write an SQL statement based on these 4 topics. 
+
+You can see full codes in [SQL Queries]() folder.
+
+
+
